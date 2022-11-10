@@ -1,0 +1,39 @@
+## Configuration for Alacritty, the GPU enhanced terminal emulator.
+## See, /usr/share/doc/alacritty/example/alacritty.yml
+
+import:
+  - ~/.config/alacritty/fonts.yml
+
+## Terminal window settings
+window:
+  dimensions:
+    columns: 84
+    lines: 24
+
+  padding:
+    x: 10
+    y: 10
+
+  decorations: full
+  startup_mode: Fullscreen
+  dynamic_title: true
+
+## Scrolling
+  history: 10000
+  multiplier: 3
+
+## Background opacity
+  opacity: 0.85
+
+## Cursor
+cursor:
+  style:
+    shape: Block
+    blinking: On
+
+## Mouse
+mouse:
+  hide_when_typing: true
+
+## Live config reload
+live_config_reload: true
